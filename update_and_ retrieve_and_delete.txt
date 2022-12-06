@@ -1,0 +1,44 @@
+
+--updating data
+
+
+UPDATE onboarding_employees SET name='kumar',email='nsjdssdjjsjdjchsj@gmail.com',dob='2010-10-11',
+gender_code='male' WHERE govt_id='id001
+
+
+
+UPDATE current_employees SET name='nayudu',dob='2010-10-10',designation='mng1',
+gender_code='female' WHERE emp_id='emp1';
+
+
+UPDATE old_employees SET name='nauyudu',dob='1990-10-12',designation='mng2',
+gender_code='female' WHERE emp_id='oemp1'
+
+UPDATE outsource_employees SET name='lavanya',source_company='tech1',designation='mng1',
+gender_code='female' WHERE emp_id='osemp1'
+
+
+
+-- retriving data
+
+SELECT * FROM onboarding_employees
+
+SELECT * FROM current_employees
+SELECT * FROM old_employees
+
+SELECT * FROM outsource_employees
+
+
+--deleting data
+
+DELETE FROM onboarding_employees;
+DELETE FROM current_employees
+DELETE FROM old_employees;
+DELETE FROM outsource_employees
+
+
+
+
+
+
+
